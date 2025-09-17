@@ -1,36 +1,39 @@
-# html
-this is the test repo to put my html project
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Radio</title>
+    <title>Inputs</title>
 </head>
 <body>
-    <!----Testing input type radio--->
-    
     <form>
-        <!----label tag box+descriptin jodega--->
+        <!----Testing  input text tag--->
+        Text : <input type="text" placeholder="Enter text"><br>
 
-        <label for="Male">Male</label>
+        <!----Testing input password tag--->
 
-        <!----input type (button  bataye) kaisa chahiye or id toh lebel ka hi part h  name attribute diye taki sab me unique name(gender) fill kare--->
+        Password : <input type="password"><br>
 
-        <input type="Radio" id="Male" name="gender"
-        value="Male"><br>
+        <!----Testing input date tag--->
 
-        <label for="Female">Female</label>
-        <input type="radio" id="male" name="gender"
-        value="Female"><br>
+        Date : <input type="date"><br>
 
-        <label for="others">others</label>
-            <input type="radio" id="others" name="gender"
-            value="others"><br>
+        <!----Testing input file tag--->
 
-       
+        File : <input type="file"><br>
+
+        <!----Testing input color tag--->
+        color : <input type="color"><br>
+
+         <!----Testing input range tag--->
+         Range : <input type="range"><br>
+
+         <!----Testing input poke me tag ek button generate kiye and vale(yani button ki value poked rakhe)--->
+        Poke Me : <input type="poke" value="poked"><br>
+         <!----Testing input submit button tag--->
+          
+        Submit : <input type="submit">
 
     </form>
-    
 </body>
 </html>
